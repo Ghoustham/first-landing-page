@@ -29,9 +29,9 @@ ul > li {
 
 .header-logo {
     display: flex;
-    color: #eeeeee;
     font-size: 24px;
     color: #f9faf8;
+    font-weight: 900;
 }
 
 .link-header > ul {
@@ -46,7 +46,7 @@ ul > li {
     justify-content: space-evenly   ;
     align-items: center;
     flex-shrink: 0;
-    padding: 10em;
+    padding: 8em;
 }
 
 .container-title {
@@ -99,6 +99,127 @@ button > a {
     
 }
 
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.subtitle {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+}
 
 
+.container-card > ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 5em;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 16em;
+    align-content: center;
+
+}
+
+#paragraph {
+    display: flex;
+    font-size: 18px;
+    color: #5f5e5e;
+    width: 12em;
+    text-align: center;
+}
+
+#image {
+    display: flex;
+    width: 13em;
+    height: 13em;
+    justify-content: center;
+    border: 3px solid #3882f6;
+    border-radius: 15px;   
+}
+
+.quote-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4em;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    color: #454647;
+}
+.quote {
+    display: flex;
+    align-self: center;
+    width: 27em;
+    justify-content: center;
+}
+.name-quote {
+    display: flex;
+    justify-content: flex-end;
+    color: #1f2937;
+    font-weight: 900;
+    width:35em;   
+}
+
+.advertisement {
+    display: flex;
+    padding: 5em;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-advertisement {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #3882f6;
+    padding: 3em;
+    width: 70em;
+    border-radius: 15px;
+}
+
+.text-advertisement {
+    display: flex;
+    flex-direction: column;
+    color: #e5e7eb;
+}
+.title-advertisement > h4 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 900;
+}
+.subtext-advertisement {
+    margin: 0;
+    font-size: 18px;
+}
+
+.button {
+    background-color: #3882f6;
+    border: 3px solid #e5e7e5;
+    padding: 12px;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 16px;
+    width: 10em;
+}
+
+footer {
+    display: flex;
+    padding:2em;
+    background-color: #1f2937;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7e5;
+        
+}
 
